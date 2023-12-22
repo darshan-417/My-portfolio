@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaqurie.css">
+<body>
+    <nav id="destop-nav">
+        <div class="logo">Darshan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class="logo">Darshan</div>
+        <div class="hamburger-menu"></div>
+        <div class="hamburger-icon" onclick="Togglemenu()"></div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="menu-links">
+            <li><a href="#about" onclick="Togglemenu()">about;</a></li>
+            <li><a href="#experience" onclick="Togglemenu()">experience;</a></li>
+            <li><a href="#projects" onclick="Togglemenu()">projects;</a></li>
+            <li><a href="#contact" onclick="Togglemenu()">contact;</a></li>  
+        </div>
+    </nav>
+    <script src="scrip.js"></script>
+</body>
+</html>
